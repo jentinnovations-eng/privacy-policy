@@ -1,0 +1,17 @@
+name: Check links
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "0 9 * * 1"
+permissions:
+  contents: read
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --scheme https --scheme http --include-fragments "./*.html" "./*.md"
+          fail: true

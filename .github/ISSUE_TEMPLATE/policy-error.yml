@@ -1,0 +1,16 @@
+name: Policy page error
+description: Report a typo, broken link, or inaccuracy on a policy page.
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Which page?
+      placeholder: forge.html
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+    validations:
+      required: true
