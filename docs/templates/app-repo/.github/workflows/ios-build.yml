@@ -1,0 +1,25 @@
+# TEMPLATE. Not tested. Edit the TODO values, then copy into the app repo.
+# Builds and runs unit tests on every push and pull request.
+name: iOS build & test
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Show available Xcode and simulators
+        run: |
+          xcodebuild -version
+          xcrun simctl list devices available
+      - name: Build and test
+        run: |
+          # TODO: set your scheme and a simulator name from the list printed above.
+          xcodebuild test \
+            -scheme "YourAppScheme" \
+            -destination "platform=iOS Simulator,name=iPhone 16" \
+            CODE_SIGNING_ALLOWED=NO

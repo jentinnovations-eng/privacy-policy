@@ -2,6 +2,9 @@
 
 Newest first. Record every change to policy wording, with the effective date shown on the page.
 
+## 2026-10-07 (later)
+- Added `support.html`, Dependabot for workflow actions, GitHub setup guide and starter templates. No policy wording changed.
+
 ## 2026-10-07
 - `index.html`: clarified scope. It is the default policy for apps without a dedicated policy; previously it claimed to cover every app, which contradicted `forge.html`. Added footer links.
 - `index.html`: removed stray "raw / Index · HTML" text (copied from the GitHub UI) that sat above `<!DOCTYPE>` and rendered at the top of the page.
