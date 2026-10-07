@@ -3,6 +3,8 @@
 Newest first. Record every change to policy wording, with the effective date shown on the page.
 
 ## 2026-10-07
+- `index.html`: scope sentence now says "mobile apps and tools" (was "productivity and fitness tools", which did not describe every app). Wording only; no change to data practices.
+- All pages: accessibility and SEO fixes only (meta descriptions, heading structure in `terms.html`, colour contrast, consistent date format and contact email casing). No change to policy meaning.
 - `index.html`: clarified scope. It is the default policy for apps without a dedicated policy; previously it claimed to cover every app, which contradicted `forge.html`. Added footer links.
 - `index.html`: removed stray "raw / Index · HTML" text (copied from the GitHub UI) that sat above `<!DOCTYPE>` and rendered at the top of the page.
 - Added `apps.html` directory.
