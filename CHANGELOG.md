@@ -2,6 +2,11 @@
 
 Newest first. Record every change to policy wording, with the effective date shown on the page.
 
+## 2026-10-13 (later)
+- Added privacy policies for Solar Sandbox (`solarsandbox.html`) and StickerCraft (`stickercraft.html`), effective October 13, 2026, and listed both in `apps.html`.
+- All per-app privacy pages: footer "Support" link now points to `support.html` instead of `mailto:`. No policy wording changed.
+- Merged the support-page branch and the SEO/accessibility/terms branch. That branch's `forge.html` edits were superseded by the new `forge.html` and not applied.
+
 ## 2026-10-13
 - Added dedicated privacy policies for 17 apps: `apexrider.html`, `automod3d.html`, `boardscore.html`, `eventhorizon.html`, `facet-pop.html`, `fenlins.html`, `folio.html`, `groundguard.html`, `huntersmap.html`, `loom.html`, `meshify.html`, `numberbuddies.html`, `pureeats.html`, `shelflife.html`, `solobill.html`, `startleguard.html`, `trialshield.html`. Effective dates are shown on each page.
 - `forge.html`: replaced with the new shared layout and revised wording (effective date unchanged, September 5, 2026).
