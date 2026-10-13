@@ -6,6 +6,7 @@ Public home of the privacy policies and terms for apps published by **Jent Innov
 |---|---|
 | [`index.html`](index.html) | General privacy policy (default for apps without their own) |
 | [`forge.html`](forge.html) | Privacy policy for **Forge** (iPhone 3D-print slicer) |
+| `<app>.html` | Per-app privacy policies (ApexRider, Folio, Loom, …); see [`apps.html`](apps.html) for the full list |
 | [`terms.html`](terms.html) | Terms & conditions for **MotorScribe** |
 | [`apps.html`](apps.html) | Directory of apps and which policy covers each |
 
