@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods / Carthage
+Pods/
+Carthage/Build/
+
+# Secrets and signing material. NEVER commit these.
+*.p8
+*.p12
+*.cer
+*.mobileprovision
+*.certSigningRequest
+AuthKey_*.p8
+.env
+.env.*
+secrets.xcconfig
