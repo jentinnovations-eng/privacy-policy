@@ -1,0 +1,3 @@
+# This site's own URLs (canonical tags). The same pages are checked as local
+# files in this run, and new pages 404 on the live site until the PR merges.
+^https://jentinnovations-eng\.github\.io/privacy-policy/

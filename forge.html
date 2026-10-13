@@ -1,129 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Forge — Privacy Policy</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Forge Slicer — Privacy Policy</title>
+<meta name="description" content="Privacy policy for Forge by Jent Innovations.">
+<link rel="canonical" href="https://jentinnovations-eng.github.io/privacy-policy/forge.html">
+<meta name="theme-color" content="#090b0e">
+<meta name="color-scheme" content="dark">
 <style>
-  :root { color-scheme: light dark; }
-  body {
-    margin: 0; padding: 2.5rem 1.25rem 4rem;
-    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    color: #1c1e21; background: #ffffff;
-    max-width: 44rem; margin-inline: auto;
-  }
-  @media (prefers-color-scheme: dark) {
-    body { color: #e8eaed; background: #1b1f24; }
-    a { color: #7cb7ff; }
-    .rule { border-color: #333a42; }
-    .note { background: #22272e; border-color: #333a42; }
-  }
-  h1 { font-size: 2rem; margin: 0 0 .25rem; letter-spacing: -.02em; }
-  .sub { color: #6b7280; margin: 0 0 2rem; }
-  h2 { font-size: 1.15rem; margin: 2.25rem 0 .6rem; letter-spacing: -.01em; }
-  p, li { margin: 0 0 .8rem; }
-  ul { padding-left: 1.25rem; }
-  a { color: #0b62d0; }
-  .rule { border: 0; border-top: 1px solid #e3e6ea; margin: 2.5rem 0 1.5rem; }
-  .note {
-    background: #f5f7f9; border: 1px solid #e3e6ea; border-radius: 10px;
-    padding: 1rem 1.15rem; margin: 1.5rem 0;
-  }
-  footer { color: #6b7280; font-size: .9rem; }
+  :root { --bg:#090b0e; --card:#141923; --border:rgba(255,255,255,0.08); --text:#f0f3f8; --muted:#9aa5b8; --faint:#647087; --accent:#4f8cff; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--muted); font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.65; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:760px; margin:0 auto; padding:32px 20px 64px; }
+  a { color:var(--accent); }
+  .back { display:inline-block; margin-bottom:28px; text-decoration:none; font-weight:600; font-size:0.92rem; }
+  h1 { color:#fff; font-size:clamp(1.6rem,4vw,2.1rem); letter-spacing:-0.02em; margin:0 0 6px; line-height:1.2; }
+  .eff { color:var(--faint); font-size:0.85rem; margin-bottom:24px; }
+  h4 { color:#fff; font-size:1.08rem; margin:28px 0 8px; }
+  p { margin:0 0 12px; }
+  ul { margin:0 0 16px; padding-left:22px; } li { margin-bottom:6px; }
+  strong { color:var(--text); }
+  .modal-highlight { background:rgba(79,140,255,0.1); border-left:3px solid var(--accent); padding:14px 18px; border-radius:4px; color:var(--text); }
+  footer { margin-top:48px; padding-top:20px; border-top:1px solid var(--border); font-size:0.85rem; color:var(--faint); }
 </style>
 </head>
 <body>
-
-<h1>Forge — Privacy Policy</h1>
-<p class="sub">Effective 5 September 2026</p>
-
-<div class="note">
-  <strong>The short version:</strong> Forge collects nothing. It has no servers, no
-  accounts, no analytics, and no network code. Your models never leave your iPhone.
+<main class="wrap">
+<a class="back" href="./">&larr; Jent Innovations</a>
+<h1>Forge Slicer — Privacy Policy</h1>
+<div class="eff">Effective September 5, 2026</div>
+<div class="modal-highlight">
+<strong>The short version:</strong> Forge collects nothing. It has no servers, no user accounts, no analytics tracking, and no networking code. Your 3D models and G-code never leave your iPhone.
 </div>
-
-<h2>Who this covers</h2>
-<p>
-  This policy applies to <strong>Forge</strong>, a 3D printing slicer for iPhone published by
-  Jent Innovations. It applies to Forge only. Other Jent Innovations apps are covered by
-  their own policies.
-</p>
-
-<h2>What we collect</h2>
-<p>
-  Nothing. Forge does not collect, transmit, sell, share, or store any personal information.
-  There is no analytics SDK, no crash reporting service, no advertising framework, and no
-  account system. The app contains no networking code.
-</p>
-
-<h2>What stays on your device</h2>
-<p>
-  Forge works entirely on your iPhone. The following are stored locally, in the app's own
-  private storage, and are never transmitted anywhere:
-</p>
+<h4>Who This Covers</h4>
+<p>This policy applies to <strong>Forge</strong>, an on-device 3D printing slicer for iPhone published by Jent Innovations. Other Jent Innovations apps are covered by their respective policies.</p>
+<h4>What We Collect</h4>
+<p>Nothing. Forge does not collect, transmit, sell, share, or store any personal information. There is no analytics SDK, no crash reporting service, no advertising framework, and no remote account system. The application contains no networking code.</p>
+<h4>What Stays on Your Device</h4>
+<p>Forge executes 100% locally on your iPhone hardware. The following data is kept solely in private sandboxed storage and never transmitted:</p>
 <ul>
-  <li>3D model files you import, and the model library you build from them</li>
-  <li>Position, scale, and rotation for each model</li>
-  <li>Your printer profile and slicing settings</li>
-  <li>Your appearance preference (light or dark)</li>
-  <li>G-code files that Forge generates</li>
+<li>3D model files you import (.stl) and your local model library</li>
+<li>Model position, orientation, scaling, and rotation data</li>
+<li>Printer profiles, slicing presets, layer heights, and material parameters</li>
+<li>Light/dark appearance preferences</li>
+<li>Generated machine G-code files</li>
 </ul>
-<p>
-  Deleting Forge removes all of it. There is no copy anywhere else, and we have no way to
-  recover it — which is the trade-off that comes with an app that keeps nothing.
-</p>
-
-<h2>Files you open</h2>
-<p>
-  When you open an STL file in Forge, the file is read and processed on your device. When
-  you export G-code or a model, iOS asks you where to put it. Forge never uploads a file,
-  and it does not read files you have not explicitly opened or imported.
-</p>
-
-<h2>Tracking</h2>
-<p>
-  Forge does not track you across apps or websites, does not use the Advertising Identifier,
-  and does not request App Tracking Transparency permission. There is nothing to opt out of.
-</p>
-
-<h2>Third parties</h2>
-<p>
-  Forge includes one open-source geometry library (Clipper2, Boost Software License 1.0)
-  which runs entirely on your device and performs no networking. No other third-party code
-  is included. If you purchase anything in the app, that transaction is handled by Apple
-  under <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>; Jent
-  Innovations receives sales reports from Apple that do not identify you.
-</p>
-
-<h2>Children</h2>
-<p>
-  Forge is not directed at children under 13 and collects no information from anyone,
-  including children.
-</p>
-
-<h2>Your rights</h2>
-<p>
-  Data-protection laws such as the GDPR and CCPA give you rights to access, correct, export,
-  and delete personal data held about you. Jent Innovations holds no personal data about
-  Forge users, so there is nothing for us to produce or erase. Your data is on your device
-  and under your control.
-</p>
-
-<h2>Changes to this policy</h2>
-<p>
-  If a future version of Forge adds a feature that changes any of the above — cloud sync,
-  for example, or sending G-code to a networked printer — this policy will be updated
-  before that version ships, and the effective date at the top will change.
-</p>
-
-<h2>Contact</h2>
-<p>
-  Questions about privacy, or anything else about Forge:
-  <a href="mailto:jentinnovations@gmail.com">jentinnovations@gmail.com</a>.
-</p>
-
-<hr class="rule">
-<footer>Jent Innovations · Forge for iPhone</footer>
-
+<p>Deleting Forge cleanly removes all stored files. No cloud duplicates exist.</p>
+<h4>Files and STL Processing</h4>
+<p>When you open an STL file in Forge, it is processed in local memory. Exported G-code is handed directly to the iOS system share sheet (AirDrop, Files, or USB storage) under your explicit control.</p>
+<h4>Third-Party Components</h4>
+<p>Forge incorporates the open-source Clipper2 geometry library (Boost Software License 1.0), which executes locally without network access.</p>
+<h4>Contact</h4>
+<p>Questions regarding privacy: <a href="mailto:jentinnovations@gmail.com">jentinnovations@gmail.com</a>.</p>
+<footer>&copy; 2026 Jent Innovations &middot; <a href="mailto:jentinnovations@gmail.com">Support</a> &middot; <a href="mailto:jentinnovations@gmail.com">jentinnovations@gmail.com</a></footer>
+</main>
 </body>
 </html>
